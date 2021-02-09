@@ -53,10 +53,10 @@ export function isNew(date) {
   return isNew;
 }
 
-function getformattedDate(date) {
+export function getformattedDate(date) {
   return dayjs(date).format('MMM D, YYYY');
 }
 
-function getRelativeDate(date) {
+export function getRelativeDate(date) {
   return dayjs(date).fromNow();
 }

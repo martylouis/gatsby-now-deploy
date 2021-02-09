@@ -1,0 +1,33 @@
+{
+  "name": "emcoastorg",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Marty Thierry <marty@martylouis.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.1.4",
+    "@sanity/components": "^2.1.4",
+    "@sanity/core": "^2.1.4",
+    "@sanity/default-layout": "^2.1.4",
+    "@sanity/default-login": "^2.1.4",
+    "@sanity/desk-tool": "^2.1.4",
+    "@sanity/vision": "^2.1.4",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:martylouis/emcoast.org.git"
+  }
+}
